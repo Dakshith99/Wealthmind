@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
@@ -25,21 +25,20 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { Calendar } from "@/components/ui/calendar";
-import CreateAccountDrawer  from "@/components/create-account-drawer";
+import CreateAccountDrawer from "@/components/create-account-drawer";
 import { cn } from "@/lib/utils";
 import { createTransaction, updateTransaction } from "@/actions/transaction";
 import { transactionSchema } from "@/app/lib/schema";
 import { ReceiptScanner } from "./recipt-scanner";
 
-
-const AddTransactionForm= ({
+const AddTransactionForm = ({
   accounts,
   categories,
   editMode = false,
   initialData = null,
 }) => {
-
-      const router = useRouter();
+  
+  const router = useRouter();
   const searchParams = useSearchParams();
   const editId = searchParams.get("edit");
 
@@ -331,8 +330,6 @@ const AddTransactionForm= ({
       </div>
     </form>
   );
-
-
-}
+};
 
 export default AddTransactionForm;

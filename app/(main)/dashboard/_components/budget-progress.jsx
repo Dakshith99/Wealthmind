@@ -30,7 +30,7 @@ const BudgetProgress = ({ initialBudget, currentExpenses }) => {
     error,
   } = useFetch(updateBudget);
 
-  const percentUsed = initialBudget
+  const percentUsed = initialBudget 
     ? (currentExpenses / initialBudget.amount) * 100
     : 0;
 
@@ -127,7 +127,6 @@ const BudgetProgress = ({ initialBudget, currentExpenses }) => {
             <Progress
               value={percentUsed}
               extraStyles={`${
-                // add to Progress component
                 percentUsed >= 90
                   ? "bg-red-500"
                   : percentUsed >= 75

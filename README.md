@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WealthMind
 
-## Getting Started
+WealthMind is a comprehensive financial management application designed to help users track their budgets, manage expenses, and achieve their financial goals.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Budget Tracking**: Monitor your spending and stay within your budget.
+- **Expense Management**: Categorize and manage your expenses with ease.
+- **Financial Goals**: Set and track your financial goals.
+- **Reports and Insights**: Generate reports to gain insights into your financial habits.
+- **AI Insights**: Leverage AI to provide personalized financial insights and recommendations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To set up the project locally, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   
+   git clone [https://github.com/Dakshith99/Wealthmind.git](https://github.com/Dakshith99/Wealthmind.git)
+2. Navigate to the project directory:
+   
+   cd Wealthmind
 
-## Learn More
+3. Install the dependencies:
+   
+   npm install  
 
-To learn more about Next.js, take a look at the following resources:
+4. Set up environment variables:
+    
+    eg: like .env
+   
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Start the development server:
+   
+   npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Usage
+Open http://localhost:3000 in your browser to view the application.
+Use the dashboard to manage your financial data and track your progress.
 
-## Deploy on Vercel
+## Sample output 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Dashboard Overview](assets/img1.png)
+![Features Overview](assets/img2.png)
+![Add Transaction](assets/img3.png)
+![Monthly Breakdown](assets/img4.png)
+![Finance Management](assets/img5.png)
+![Transaction overview](assets/img6.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Technologies Used
+
+- Next.js: For server-side rendering and static site generation.
+- Supabase: As the database and authentication provider.
+- prisma: For database schema and data modeling.
+- Tailwind CSS: For styling the application.
+- Clerk: For user authentication.
+- Arcjet, Resend, Gemini: For additional integrations and API functionalities.

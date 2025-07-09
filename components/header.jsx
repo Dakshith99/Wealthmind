@@ -11,14 +11,14 @@ const Header = async () => {
     await checkUser();
 
   return (
-    <div className='fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b'>
+    <div className='fixed top-0 w-full bg-blue-50/80 backdrop-blur-md z-50 border-b'>
         <nav className='conatiner mx-auto px-4 py-4 flex items-center justify-between'>
             <Link href='/'>
-             <Image src={"/logo.png"}
+             <Image src={"/log.png"}
              alt = "wealth logo"
              height={60}
              width={200}
-             className='h-12 w-auto object-contain'
+             className='h-14 w-auto object-contain'
              />
             </Link>
         <div className='flex items-center space-x-4'>

@@ -41,10 +41,15 @@ Use the dashboard to manage your financial data and track your progress.
 ## Sample output 
 
 ![Dashboard Overview](assets/img1.png)
+
 ![Features Overview](assets/img2.png)
+
 ![Add Transaction](assets/img3.png)
+
 ![Monthly Breakdown](assets/img4.png)
+
 ![Finance Management](assets/img5.png)
+
 ![Transaction overview](assets/img6.png)
 
 
